@@ -1,0 +1,1851 @@
+{
+  "adminUsers": [
+    {
+      "id": "admin-super-01",
+      "email": "admin@computergalaxy.in",
+      "passwordHash": "fbcd9e27b399d0b8ba96989cb6cfaeeac64d31aa7616b1bd7a87f3e31bb80443",
+      "name": "Chief Administrator",
+      "role": "superadmin",
+      "createdAt": "2026-11-06T09:09:40.243Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "pc-supernova-ultra",
+      "name": "Galaxy SuperNova RTX 4080 Super Gaming PC (White Edition)",
+      "brand": "Computer Galaxy",
+      "category": "gaming-pcs",
+      "categoryLabel": "Gaming Desktop PCs",
+      "originalPrice": 285000,
+      "discountedPrice": 245000,
+      "discountPercent": 14,
+      "rating": 4.9,
+      "reviewCount": 38,
+      "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+      "inStock": true,
+      "stockCount": 5,
+      "isBestseller": true,
+      "isGamingPC": true,
+      "specs": {
+        "CPU": "Intel Core i9-14900KF (24 Cores / 32 Threads)",
+        "GPU": "ASUS ROG Strix RTX 4080 Super 16GB GDDR6X",
+        "RAM": "32GB (16x2) Corsair Dominator Titanium DDR5 6000MHz RGB",
+        "Storage": "2TB Kingston KC3000 Gen4 PCIe 4.0 NVMe (7000 MB/s)",
+        "Motherboard": "ASUS ROG Strix Z790-A Gaming WiFi",
+        "Cooler": "Corsair iCUE LINK H150i 360mm White AIO",
+        "PSU": "Corsair RM850x 850W 80+ Gold Fully Modular",
+        "Cabinet": "Lian Li O11 Dynamic EVO RGB White Dual Chamber"
+      },
+      "description": "Our top-rated flagship gaming rig hand-assembled by master engineers. Delivers 165+ FPS at 4K in Cyberpunk 2077, Black Myth Wukong, and Valorant. Includes custom white braided cables and a 3-Year Doorstep Warranty across India.",
+      "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+      "modelNumber": "CG-SN-4080W",
+      "updatedAt": "2026-11-06T09:35:07.973Z"
+    },
+    {
+      "id": "gpu-rog-4080",
+      "name": "ASUS ROG Strix GeForce RTX 4080 Super 16GB OC Graphics Card",
+      "brand": "ASUS",
+      "category": "graphics-cards",
+      "categoryLabel": "Graphics Cards",
+      "originalPrice": 135000,
+      "discountedPrice": 119999,
+      "discountPercent": 11,
+      "rating": 4.9,
+      "reviewCount": 52,
+      "image": "/src/assets/images/product_liquid_cooled_gpu_1793788644826.jpg",
+      "inStock": true,
+      "stockCount": 8,
+      "isBestseller": true,
+      "specs": {
+        "Memory": "16GB GDDR6X (256-bit)",
+        "Boost Clock": "2670 MHz (OC Mode)",
+        "CUDA Cores": "10240",
+        "Cooling": "Axial-tech Triple Fan Design with Vapor Chamber",
+        "Power Connector": "1x 16-pin (12VHPWR)",
+        "Interface": "PCI Express 4.0"
+      },
+      "description": "Engineered for extreme enthusiasts with an oversized heatsink, vented exoskeleton, and premium power delivery for rock-solid overclocking.",
+      "warranty": "3 Years ASUS India Manufacturer Warranty",
+      "modelNumber": "ROG-STRIX-RTX4080S-O16G"
+    },
+    {
+      "id": "cpu-intel-14700k",
+      "name": "Intel Core i7-14700K 20-Core Desktop Processor",
+      "brand": "Intel",
+      "category": "processors",
+      "categoryLabel": "Processors",
+      "originalPrice": 44000,
+      "discountedPrice": 37499,
+      "discountPercent": 15,
+      "rating": 4.8,
+      "reviewCount": 89,
+      "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "inStock": true,
+      "stockCount": 14,
+      "isBestseller": true,
+      "specs": {
+        "Cores / Threads": "20 Cores (8P + 12E) / 28 Threads",
+        "Max Turbo Frequency": "Up to 5.6 GHz",
+        "Socket": "LGA1700",
+        "Cache": "33MB Intel Smart Cache",
+        "Memory Support": "DDR5 5600 & DDR4 3200",
+        "Graphics": "Intel UHD Graphics 770"
+      },
+      "description": "The definitive sweet spot CPU for elite gaming, streaming, and intense video rendering with 20 cores and multi-threaded muscle.",
+      "warranty": "3 Years Intel India Box Warranty",
+      "modelNumber": "BX8071514700K"
+    },
+    {
+      "id": "pc-hyperion-rtx4070",
+      "name": "Galaxy Hyperion RTX 4070 Super Creator & Gaming PC",
+      "brand": "Computer Galaxy",
+      "category": "gaming-pcs",
+      "categoryLabel": "Gaming Desktop PCs",
+      "originalPrice": 175000,
+      "discountedPrice": 149999,
+      "discountPercent": 14,
+      "rating": 4.8,
+      "reviewCount": 44,
+      "image": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+      "inStock": true,
+      "stockCount": 7,
+      "isBestseller": true,
+      "isGamingPC": true,
+      "specs": {
+        "CPU": "AMD Ryzen 7 7800X3D (8 Cores / 16 Threads, 3D V-Cache)",
+        "GPU": "MSI Gaming X Slim GeForce RTX 4070 Super 12GB",
+        "RAM": "32GB (16x2) G.Skill Flare X5 DDR5 6000MHz AMD EXPO",
+        "Storage": "1TB Crucial T500 Gen4 NVMe (7300 MB/s)",
+        "Motherboard": "MSI MAG B650 Tomahawk WiFi",
+        "Cooler": "DeepCool AK620 Digital Dual-Tower Air Cooler",
+        "PSU": "MSI MAG A750GL 750W 80+ Gold PCIe 5.0",
+        "Cabinet": "NZXT H6 Flow Dual Chamber Panoramic Case"
+      },
+      "description": "The ultimate gaming-optimized build pairing the world-acclaimed Ryzen 7800X3D with RTX 4070 Super for maximum 1440p high-refresh rate esports and AAA titles.",
+      "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+      "modelNumber": "CG-HY-4070S"
+    },
+    {
+      "id": "cpu-ryzen-7800x3d",
+      "name": "AMD Ryzen 7 7800X3D Desktop Processor with 3D V-Cache",
+      "brand": "AMD",
+      "category": "processors",
+      "categoryLabel": "Processors",
+      "originalPrice": 46000,
+      "discountedPrice": 38999,
+      "discountPercent": 15,
+      "rating": 4.9,
+      "reviewCount": 112,
+      "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "inStock": true,
+      "stockCount": 12,
+      "isBestseller": true,
+      "specs": {
+        "Cores / Threads": "8 Cores / 16 Threads",
+        "Base / Boost Clock": "4.2 GHz / 5.0 GHz",
+        "Socket": "AM5",
+        "L3 Cache": "96MB 3D V-Cache (104MB Total)",
+        "TDP": "120W"
+      },
+      "description": "The reigning champion CPU for competitive PC gaming. 3D V-Cache technology delivers astonishing frame rates and ultra-low 1% lows.",
+      "warranty": "3 Years AMD India Warranty",
+      "modelNumber": "100-100000910WOF"
+    },
+    {
+      "id": "gpu-msi-4070ti",
+      "name": "MSI GeForce RTX 4070 Ti Super 16GB Gaming X Slim",
+      "brand": "MSI",
+      "category": "graphics-cards",
+      "categoryLabel": "Graphics Cards",
+      "originalPrice": 94000,
+      "discountedPrice": 83999,
+      "discountPercent": 11,
+      "rating": 4.8,
+      "reviewCount": 31,
+      "image": "/src/assets/images/product_liquid_cooled_gpu_1793788644826.jpg",
+      "inStock": true,
+      "stockCount": 9,
+      "isNewArrival": true,
+      "specs": {
+        "Memory": "16GB GDDR6X (256-bit)",
+        "Boost Clock": "2685 MHz",
+        "Cooling": "TRI FROZR 3 with TORX Fan 5.0",
+        "Form Factor": "Slim 2.5-Slot",
+        "Ray Tracing": "3rd Gen RT Cores + DLSS 3.5 Frame Gen"
+      },
+      "description": "Upgraded with 16GB high-speed GDDR6X on a wider 256-bit bus, ideal for high-resolution texture packs, ray tracing, and AI diffusion models.",
+      "warranty": "3 Years MSI India Warranty",
+      "modelNumber": "RTX-4070TI-S-16G-SLIM"
+    },
+    {
+      "id": "mobo-asus-z790",
+      "name": "ASUS ROG Maximus Z790 Dark Hero Motherboard",
+      "brand": "ASUS",
+      "category": "motherboards",
+      "categoryLabel": "Motherboards",
+      "originalPrice": 68000,
+      "discountedPrice": 58999,
+      "discountPercent": 13,
+      "rating": 4.9,
+      "reviewCount": 22,
+      "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "inStock": true,
+      "stockCount": 6,
+      "isNewArrival": true,
+      "specs": {
+        "Socket": "LGA1700 (14th, 13th & 12th Gen Intel)",
+        "Memory": "4x DDR5 DIMM slots up to 8000+ MT/s (OC)",
+        "Power Stages": "20+1+2 Teamed Power Stages (90A)",
+        "Connectivity": "WiFi 7, Dual Thunderbolt 4 Type-C, 5x M.2 slots"
+      },
+      "description": "Uncompromising motherboard for enthusiast Intel builds. Features onboard PCIe 5.0 M.2 slot, high-fidelity SupremeFX audio, and Polymo lighting.",
+      "warranty": "3 Years ASUS India Warranty",
+      "modelNumber": "ROG-MAX-Z790-DARK-HERO"
+    },
+    {
+      "id": "ram-corsair-titanium",
+      "name": "Corsair Dominator Titanium RGB 32GB (16GBx2) DDR5 6000MHz White",
+      "brand": "Corsair",
+      "category": "ram-memory",
+      "categoryLabel": "RAM Memory",
+      "originalPrice": 19500,
+      "discountedPrice": 16499,
+      "discountPercent": 15,
+      "rating": 4.9,
+      "reviewCount": 47,
+      "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "inStock": true,
+      "stockCount": 18,
+      "isBestseller": true,
+      "specs": {
+        "Capacity": "32GB (2x 16GB)",
+        "Speed": "6000 MT/s (PC5-48000)",
+        "Timing": "CL30-36-36-76",
+        "Profile": "Intel XMP 3.0 & AMD EXPO Ready",
+        "Lighting": "11 Addressable CAPELLIX RGB LEDs per module"
+      },
+      "description": "Forged aluminum heatspreaders with interchangeable top bars. Low-latency CL30 timings tuned for optimal gaming frame times.",
+      "warranty": "Limited Lifetime Warranty by Corsair India",
+      "modelNumber": "CMP32GX5M2B6000C30W"
+    },
+    {
+      "id": "ssd-samsung-990pro",
+      "name": "Samsung 990 PRO 2TB PCIe Gen 4.0 x4 M.2 NVMe SSD with Heatsink",
+      "brand": "Samsung",
+      "category": "storage-ssd",
+      "categoryLabel": "NVMe & SSD Storage",
+      "originalPrice": 22000,
+      "discountedPrice": 17999,
+      "discountPercent": 18,
+      "rating": 4.9,
+      "reviewCount": 96,
+      "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "inStock": true,
+      "stockCount": 25,
+      "isBestseller": true,
+      "specs": {
+        "Sequential Read": "Up to 7,450 MB/s",
+        "Sequential Write": "Up to 6,900 MB/s",
+        "Interface": "PCIe 4.0 NVMe 2.0",
+        "Endurance": "1200 TBW",
+        "Compatibility": "PC & PlayStation 5 ready with slim heatsink"
+      },
+      "description": "Blazing fast solid state drive with custom nickel-coated controller and thermal control algorithm for zero-throttling gaming.",
+      "warranty": "5 Years Samsung India Warranty",
+      "modelNumber": "MZ-V9P2T0CW"
+    },
+    {
+      "id": "monitor-lg-ultragear",
+      "name": "LG UltraGear 27GR95QE 27-inch QHD 240Hz 0.03ms OLED Gaming Monitor",
+      "brand": "LG",
+      "category": "monitors",
+      "categoryLabel": "Gaming Monitors",
+      "originalPrice": 95000,
+      "discountedPrice": 74999,
+      "discountPercent": 21,
+      "rating": 4.9,
+      "reviewCount": 63,
+      "image": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+      "inStock": true,
+      "stockCount": 8,
+      "isBestseller": true,
+      "specs": {
+        "Screen Size": "27-inch OLED Anti-Glare",
+        "Resolution": "QHD 2560 x 1440",
+        "Refresh Rate": "240 Hz",
+        "Response Time": "0.03ms (GtG)",
+        "Color Gamut": "DCI-P3 98.5% with HDR10",
+        "Sync": "NVIDIA G-SYNC Compatible & AMD FreeSync Premium"
+      },
+      "description": "Transformative visual fidelity with true infinite contrast, vibrant OLED colors, and lightning-fast 0.03ms pixel response.",
+      "warranty": "3 Years LG India Onsite Warranty including OLED Burn-in Coverage",
+      "modelNumber": "27GR95QE-B"
+    },
+    {
+      "id": "pc-aurora-esports",
+      "name": "Galaxy Aurora Core i5 RTX 4060 Competitive Esports PC",
+      "brand": "Computer Galaxy",
+      "category": "gaming-pcs",
+      "categoryLabel": "Gaming Desktop PCs",
+      "originalPrice": 92000,
+      "discountedPrice": 77999,
+      "discountPercent": 15,
+      "rating": 4.8,
+      "reviewCount": 71,
+      "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+      "inStock": true,
+      "stockCount": 11,
+      "isBestseller": true,
+      "isGamingPC": true,
+      "specs": {
+        "CPU": "Intel Core i5-13400F (10 Cores / 16 Threads)",
+        "GPU": "ZOTAC Gaming GeForce RTX 4060 8GB Twin Edge",
+        "RAM": "16GB (8x2) Kingston Fury Beast DDR5 5200MHz",
+        "Storage": "1TB Western Digital Black SN770 Gen4 NVMe (5150 MB/s)",
+        "Motherboard": "Gigabyte B760M DS3H AX WiFi",
+        "Cooler": "DeepCool AG400 ARGB Tower Cooler",
+        "PSU": "Cooler Master MWE 650W 80+ Bronze V2",
+        "Cabinet": "Ant Esports 511MT Mid Tower with 4x ARGB Fans"
+      },
+      "description": "The most popular budget-to-midrange esports machine in India. Runs Valorant, CS2, GTA V, and Apex Legends at over 240 FPS at 1080p smoothly.",
+      "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+      "modelNumber": "CG-AU-4060"
+    },
+    {
+      "id": "case-lian-li-o11",
+      "name": "Lian Li O11 Vision Dual Chamber Tempered Glass PC Case (White)",
+      "brand": "Lian Li",
+      "category": "cabinets",
+      "categoryLabel": "PC Cabinets & Cases",
+      "originalPrice": 17000,
+      "discountedPrice": 13999,
+      "discountPercent": 18,
+      "rating": 4.9,
+      "reviewCount": 35,
+      "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+      "inStock": true,
+      "stockCount": 10,
+      "isNewArrival": true,
+      "specs": {
+        "Type": "Dual-Chamber Mid Tower",
+        "Panels": "3-Sided Pillarless Tempered Glass (Top, Front, Left)",
+        "Motherboard Support": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+        "Radiator Support": "Up to 360mm Side & Bottom",
+        "GPU Clearance": "Up to 455mm"
+      },
+      "description": "Designed in collaboration with PC Master Race. Three borderless tempered glass panels provide an unobstructed panoramic view of your internal build.",
+      "warranty": "2 Years Manufacturer Warranty",
+      "modelNumber": "O11V-WHITE"
+    },
+    {
+      "id": "pc-basic-essential-i3",
+      "name": "Galaxy Essential Core i3 Everyday Home & Student PC",
+      "brand": "Computer Galaxy",
+      "category": "basic-pcs",
+      "categoryLabel": "Basic & Office Computers",
+      "originalPrice": 26000,
+      "discountedPrice": 21999,
+      "discountPercent": 15,
+      "rating": 4.8,
+      "reviewCount": 46,
+      "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "inStock": true,
+      "stockCount": 15,
+      "isBestseller": true,
+      "specs": {
+        "CPU": "Intel Core i3-12100 12th Gen (4 Cores / 8 Threads, up to 4.3 GHz)",
+        "Graphics": "Intel UHD Graphics 730 (Supports Dual 4K Monitors)",
+        "RAM": "16GB Crucial DDR4 3200MHz Memory",
+        "Storage": "512GB Kingston NVMe Gen4 SSD (Fast 3500 MB/s)",
+        "Motherboard": "ASUS Prime H610M-E D4 with HDMI & DisplayPort",
+        "Power Supply": "Ant Esports VS450L 450W PSU",
+        "Cabinet": "Circle Elegant Micro-ATX Black Desktop Chassis",
+        "Connectivity": "Fast Dual-Band WiFi + Bluetooth 5.0 Included"
+      },
+      "description": "The ultimate reliable desktop for schooling, college projects, Tally ERP, Zoom conferences, accounting, and everyday home media. Instant 8-second Windows boot time and quiet operation.",
+      "warranty": "3 Years Full Hardware Warranty with Free Tech Support",
+      "modelNumber": "CG-ES-I312"
+    },
+    {
+      "id": "pc-basic-prowork-i5",
+      "name": "Galaxy ProWork Core i5 Commercial Office & Business Desktop",
+      "brand": "Computer Galaxy",
+      "category": "basic-pcs",
+      "categoryLabel": "Basic & Office Computers",
+      "originalPrice": 44000,
+      "discountedPrice": 36999,
+      "discountPercent": 16,
+      "rating": 4.9,
+      "reviewCount": 39,
+      "image": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+      "inStock": true,
+      "stockCount": 12,
+      "isBestseller": true,
+      "specs": {
+        "CPU": "Intel Core i5-13400 (10 Cores / 16 Threads, up to 4.6 GHz)",
+        "Graphics": "Intel UHD Graphics 730",
+        "RAM": "16GB Crucial DDR5 4800MHz High-Speed Memory",
+        "Storage": "1TB Western Digital Blue SN580 Gen4 NVMe (4150 MB/s)",
+        "Motherboard": "Gigabyte B760M DS3H AX with Built-in WiFi 6E",
+        "Power Supply": "Cooler Master MWE 500W 80+ Certified",
+        "Cabinet": "Antec VSK10 Professional Silent Office Tower",
+        "OS & Software": "Windows 11 Pro 64-bit Pre-Installed"
+      },
+      "description": "High-speed business workstation engineered for seamless heavy multitasking, large Excel sheets, software compilation, multi-screen stock trading, and corporate office productivity.",
+      "warranty": "3 Years Onsite Manufacturer Warranty",
+      "modelNumber": "CG-PW-I513"
+    },
+    {
+      "id": "pc-basic-ryzen-home",
+      "name": "Galaxy SmartWork AMD Ryzen 5 Compact Desktop PC",
+      "brand": "Computer Galaxy",
+      "category": "basic-pcs",
+      "categoryLabel": "Basic & Office Computers",
+      "originalPrice": 35000,
+      "discountedPrice": 29499,
+      "discountPercent": 15,
+      "rating": 4.8,
+      "reviewCount": 28,
+      "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+      "inStock": true,
+      "stockCount": 9,
+      "isNewArrival": true,
+      "specs": {
+        "CPU": "AMD Ryzen 5 5600G (6 Cores / 12 Threads with Radeon Vega 7 Graphics)",
+        "Graphics": "AMD Radeon Vega 7 Integrated GPU (Capable of 1080p casual gaming)",
+        "RAM": "16GB (8x2) Corsair Vengeance LPX DDR4 3200MHz Dual Channel",
+        "Storage": "512GB Crucial P3 Gen3 NVMe SSD",
+        "Motherboard": "MSI B450M PRO-VDH MAX",
+        "Power Supply": "Corsair CV450 450W 80+ Bronze",
+        "Cabinet": "DeepCool MATREXX 30 Compact Glass Mini-Tower"
+      },
+      "description": "Compact yet powerful computer featuring AMD 6-core processor with potent Radeon graphics for light 1080p photo editing, YouTube 4K playback, Canva design, and general home computing.",
+      "warranty": "3 Years Comprehensive Hardware Warranty",
+      "modelNumber": "CG-SW-R5600"
+    }
+  ],
+  "categories": [
+    {
+      "id": "prebuilt-pcs",
+      "name": "Prebuilt PCs",
+      "description": "Factory-assembled desktop setups ready to use",
+      "icon": "Monitor",
+      "count": "14 Models",
+      "displayOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "gaming-pcs",
+      "name": "Gaming PCs",
+      "description": "Liquid-cooled Esports & AAA 4K Battle Stations",
+      "icon": "Gamepad2",
+      "count": "18 Models",
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "editing-pcs",
+      "name": "Editing PCs",
+      "description": "High-thread workstations for Premiere Pro, Blender & After Effects",
+      "icon": "Video",
+      "count": "8 Models",
+      "displayOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "basic-pcs",
+      "name": "Office PCs",
+      "description": "Quiet, dependable desktop systems for schools, Tally & corporate firms",
+      "icon": "Briefcase",
+      "count": "12 Models",
+      "displayOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "processors",
+      "name": "Processors",
+      "description": "Intel Core 12th-14th Gen & AMD Ryzen 5000/7000/9000 Series",
+      "icon": "Cpu",
+      "count": "28 Models",
+      "displayOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "graphics-cards",
+      "name": "Graphics Cards",
+      "description": "NVIDIA GeForce RTX 40-Series & AMD Radeon RX 7000",
+      "icon": "Layers",
+      "count": "34 Models",
+      "displayOrder": 6,
+      "isActive": true
+    },
+    {
+      "id": "motherboards",
+      "name": "Motherboards",
+      "description": "Intel Z790/B760 & AMD X670E/B650 motherboards",
+      "icon": "Grid",
+      "count": "42 Models",
+      "displayOrder": 7,
+      "isActive": true
+    },
+    {
+      "id": "ram-memory",
+      "name": "RAM",
+      "description": "High-speed DDR5 6000MHz & DDR4 3200MHz RGB Memory Kits",
+      "icon": "Zap",
+      "count": "30 Kits",
+      "displayOrder": 8,
+      "isActive": true
+    },
+    {
+      "id": "storage-ssd",
+      "name": "SSD and Hard Drives",
+      "description": "Gen4 NVMe M.2 SSDs up to 7400MB/s & high-capacity enterprise HDDs",
+      "icon": "HardDrive",
+      "count": "25 Drives",
+      "displayOrder": 9,
+      "isActive": true
+    },
+    {
+      "id": "cabinets",
+      "name": "Cabinets",
+      "description": "Panoramic dual-chamber fish-tank and high-airflow mesh PC cases",
+      "icon": "Box",
+      "count": "22 Cases",
+      "displayOrder": 10,
+      "isActive": true
+    },
+    {
+      "id": "monitors",
+      "name": "Monitors",
+      "description": "165Hz to 360Hz Fast-IPS & OLED gaming and color-accurate creator displays",
+      "icon": "Tv",
+      "count": "18 Displays",
+      "displayOrder": 11,
+      "isActive": true
+    },
+    {
+      "id": "printers",
+      "name": "Printers",
+      "description": "All-in-one wireless ink tank and laser printers for home and business",
+      "icon": "Printer",
+      "count": "9 Models",
+      "displayOrder": 12,
+      "isActive": true
+    },
+    {
+      "id": "keyboards",
+      "name": "Keyboards",
+      "description": "Hot-swappable mechanical keyboards with RGB and custom switches",
+      "icon": "Keyboard",
+      "count": "24 Keyboards",
+      "displayOrder": 13,
+      "isActive": true
+    },
+    {
+      "id": "mouse",
+      "name": "Mouse",
+      "description": "Ultra-lightweight wireless esports mice with 8000Hz polling rate",
+      "icon": "Mouse",
+      "count": "20 Mice",
+      "displayOrder": 14,
+      "isActive": true
+    },
+    {
+      "id": "speakers",
+      "name": "Speakers",
+      "description": "Studio monitors and 2.1 gaming soundbars with deep bass",
+      "icon": "Speaker",
+      "count": "12 Speakers",
+      "displayOrder": 15,
+      "isActive": true
+    },
+    {
+      "id": "accessories",
+      "name": "Computer Accessories",
+      "description": "Thermal paste, sleeve cables, anti-sag brackets, and webcams",
+      "icon": "Wrench",
+      "count": "35 Accessories",
+      "displayOrder": 16,
+      "isActive": true
+    },
+    {
+      "id": "laptops",
+      "name": "Laptops",
+      "description": "Thin & light creator notebooks and RTX 40-Series gaming laptops",
+      "icon": "Laptop",
+      "count": "16 Laptops",
+      "displayOrder": 17,
+      "isActive": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "banner-diwali",
+      "badge": "Diwali Festive Mega Celebration | Special Offers Live",
+      "title": "Festival of Lights Mega Celebration & Exclusive Deals",
+      "subtitle": "Computer Galaxy wishes you and your family endless joy, prosperity, and light! Celebrate this festive season with exclusive discounts across all custom gaming rigs, Intel/AMD processors, and NVIDIA RTX GPUs.",
+      "ctaText": "Shop Festive Deals",
+      "ctaLink": "#catalog-section",
+      "secondaryCtaText": "Diwali PC Builder",
+      "secondaryCtaLink": "#custom-builder",
+      "desktopImage": "/assets/aistudio/Orange_And_Pink_Vibrant_Diwali_Greetings_Video_9f51bd3e.mp4",
+      "tag": "Priority crating across India",
+      "displayOrder": 1,
+      "isActive": true,
+      "floatingBadge": "Happy Diwali 🪔 Computer Galaxy",
+      "mediaType": "video",
+      "videoUrl": "/assets/aistudio/Orange_And_Pink_Vibrant_Diwali_Greetings_Video_9f51bd3e.mp4"
+    },
+    {
+      "id": "banner-builder",
+      "badge": "INTERACTIVE PC CONFIGURATOR",
+      "title": "Build Your Dream Custom PC with Real-Time Compatibility Engine",
+      "subtitle": "Configure Intel Core 14th Gen or AMD Ryzen rigs with instant socket validation, RAM matching, and power wattage calculations.",
+      "ctaText": "Configure Custom PC",
+      "ctaLink": "#custom-builder",
+      "desktopImage": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "tag": "3-Year Doorstep Warranty Included",
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "banner-gpu",
+      "badge": "EXCLUSIVE GRAPHICS CARDS",
+      "title": "GeForce RTX 40-Series & Liquid Cooled GPUs at Street Market Prices",
+      "subtitle": "Official Indian brand warranty on ASUS, MSI, Gigabyte, and ZOTAC with GST tax invoice.",
+      "ctaText": "Shop Graphics Cards",
+      "ctaLink": "#catalog-section",
+      "desktopImage": "/src/assets/images/product_liquid_cooled_gpu_1793788644826.jpg",
+      "tag": "Extra ₹2,000 Off with Code GALAXY2000",
+      "displayOrder": 3,
+      "isActive": true
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-festive-2026",
+      "title": "Computer Galaxy Mega Hardware Sale",
+      "discountInfo": "Up to 35% Off on Custom Rigs & Selected Components",
+      "description": "Use coupon code GALAXY500 for flat ₹500 off on all orders above ₹2,000. Free shipping across India.",
+      "couponCode": "GALAXY500",
+      "bannerImage": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-30",
+      "isActive": true,
+      "discountPercent": 15,
+      "promotionalProductIds": [
+        "pc-supernova-ultra",
+        "gpu-rtx4080s",
+        "cpu-i9-14900k"
+      ]
+    },
+    {
+      "id": "sale-student-office",
+      "title": "Office & Student PC Package Deal",
+      "discountInfo": "Flat ₹1,000 Off on Basic & Commercial Desktops",
+      "description": "Special pricing for schools, CA firms, accounting departments, and student setups.",
+      "couponCode": "OFFICE1000",
+      "bannerImage": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-15",
+      "isActive": true,
+      "discountPercent": 10,
+      "promotionalProductIds": [
+        "pc-office-i3",
+        "pc-office-ryzen5"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "CG-89210",
+      "createdAt": "03 Nov 2026, 04:30 PM",
+      "customer": {
+        "fullName": "Aniket Verma",
+        "phone": "9820198201",
+        "email": "aniket.v@gmail.com",
+        "addressLine": "B-702, Lodha Park, Senapati Bapat Marg, Lower Parel",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pinCode": "400013",
+        "paymentMethod": "upi"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "pc-supernova-ultra",
+            "name": "Galaxy SuperNova RTX 4080 Super Gaming PC (White Edition)",
+            "brand": "Computer Galaxy",
+            "category": "gaming-pcs",
+            "categoryLabel": "Gaming Desktop PCs",
+            "originalPrice": 285000,
+            "discountedPrice": 249999,
+            "discountPercent": 12,
+            "rating": 4.9,
+            "reviewCount": 38,
+            "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+            "inStock": true,
+            "stockCount": 5,
+            "isBestseller": true,
+            "isGamingPC": true,
+            "specs": {
+              "CPU": "Intel Core i9-14900KF (24 Cores / 32 Threads)",
+              "GPU": "ASUS ROG Strix RTX 4080 Super 16GB GDDR6X",
+              "RAM": "32GB (16x2) Corsair Dominator Titanium DDR5 6000MHz RGB",
+              "Storage": "2TB Kingston KC3000 Gen4 PCIe 4.0 NVMe (7000 MB/s)",
+              "Motherboard": "ASUS ROG Strix Z790-A Gaming WiFi",
+              "Cooler": "Corsair iCUE LINK H150i 360mm White AIO",
+              "PSU": "Corsair RM850x 850W 80+ Gold Fully Modular",
+              "Cabinet": "Lian Li O11 Dynamic EVO RGB White Dual Chamber"
+            },
+            "description": "Our top-rated flagship gaming rig hand-assembled by master engineers. Delivers 165+ FPS at 4K in Cyberpunk 2077, Black Myth Wukong, and Valorant. Includes custom white braided cables and a 3-Year Doorstep Warranty across India.",
+            "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+            "modelNumber": "CG-SN-4080W"
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 249999,
+      "discount": 35001,
+      "deliveryCharge": 0,
+      "total": 249999,
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "trackingNumber": "BD-IN-7890123",
+      "gstInvoiceNumber": "GST-CG26-4491",
+      "internalNotes": "Customer requested double-layer corner padding for BlueDart Air transit."
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-89201",
+      "fullName": "Aniket Verma",
+      "email": "aniket.v@gmail.com",
+      "phone": "9820198201",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pinCode": "400013",
+      "addressLine": "B-702, Lodha Park, Senapati Bapat Marg, Lower Parel",
+      "ordersCount": 1,
+      "totalSpent": 249999,
+      "lastOrderDate": "03 Nov 2026, 04:30 PM",
+      "createdAt": "03 Nov 2026, 04:30 PM"
+    }
+  ],
+  "content": {
+    "homepage": {
+      "heroTitle": "Computer Galaxy - India's Trusted Custom PC & Hardware Store",
+      "heroSubtitle": "Hand-crafted gaming PCs, workstation rigs, and genuine computer components delivered securely across 19,000+ pin codes.",
+      "announcementText": "🔥 FESTIVE MEGA SALE: Up to 35% Off on Gaming Rigs + Zero Assembly Fees! Use code GALAXY500.",
+      "announcementActive": true,
+      "sections": [
+        {
+          "id": "diwali-banner",
+          "name": "Sale & Greetings Banner",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "id": "top-pc-selector",
+          "name": "PC Category Selector (Basic, Gaming, Custom)",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "id": "categories",
+          "name": "Shop By Category Grid",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "id": "catalog",
+          "name": "Main Product Catalog",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "id": "custom-builder-promo",
+          "name": "Custom PC Assembly Studio Promo",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "id": "gaming-pcs-collection",
+          "name": "Pre-configured Gaming Rig Collection",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "id": "bestsellers",
+          "name": "Bestselling Hardware & Components",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "id": "popular-brands",
+          "name": "Official Brand Partners Grid",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "id": "why-choose-us",
+          "name": "Why Choose Computer Galaxy",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "id": "google-reviews",
+          "name": "Verified Google Customer Reviews",
+          "visible": true,
+          "order": 10
+        }
+      ]
+    },
+    "about": {
+      "heading": "Engineering Excellence in PC Hardware Since 2018",
+      "description": "Computer Galaxy was founded with a mission to bridge the gap between volatile grey-market pricing and professional corporate warranty standards. We build custom gaming PCs, visual effects render farms, and high-reliability office machines with 100% serialized authorized importer stock, stress testing every build for 24 hours before safe delivery.",
+      "establishedYear": "2018",
+      "highlights": [
+        "Over 50,000 custom computers deployed across India",
+        "Authorized partners with ASUS ROG, MSI, Gigabyte, Intel & AMD",
+        "100% genuine serialized products with official manufacturer GST invoices",
+        "Free lifetime technical support and BIOS/driver consultation"
+      ],
+      "storeAddress": "Computer Galaxy Flagship Experience Center, Shop 14-16, IT Mall, MG Road, Pune, Maharashtra 411001",
+      "storePhotos": [
+        "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg"
+      ]
+    },
+    "contact": {
+      "businessName": "Computer Galaxy Hardware & Systems",
+      "phone": "+91 70144 43922",
+      "whatsapp": "+91 70144 43922",
+      "email": "sales@computergalaxy.in",
+      "address": "Shop 14-16, IT Hardware Plaza, MG Road, Camp, Pune, Maharashtra 411001, India",
+      "workingHours": "Monday - Saturday: 10:30 AM to 8:30 PM IST (Sunday Closed)",
+      "googleMapsEmbedUrl": "https://maps.google.com/?q=Computer+Galaxy+Pune",
+      "socialLinks": {
+        "youtube": "https://youtube.com/@computergalaxyindia",
+        "instagram": "https://instagram.com/computergalaxy.official",
+        "facebook": "https://facebook.com/computergalaxyindia",
+        "twitter": "https://x.com/computergalaxyin"
+      }
+    },
+    "footer": {
+      "description": "Computer Galaxy is India's premier enthusiast PC hardware store offering custom liquid-cooled gaming rigs, commercial office desktops, and verified components with 100% transit insurance and Indian distributor warranty.",
+      "gstNumber": "GSTIN: 27AABCC1234D1Z8",
+      "copyrightText": "© 2026 Computer Galaxy Hardware & Systems. All Rights Reserved. All brand logos are property of their respective manufacturers.",
+      "quickLinks": [
+        {
+          "label": "Basic & Office PCs",
+          "url": "#basic-pcs"
+        },
+        {
+          "label": "Gaming Rigs",
+          "url": "#gaming-pcs"
+        },
+        {
+          "label": "Custom PC Builder",
+          "url": "#custom-builder"
+        },
+        {
+          "label": "All Components",
+          "url": "#catalog-section"
+        },
+        {
+          "label": "Track My Order",
+          "url": "#track-order"
+        },
+        {
+          "label": "Warranty & Support Policy",
+          "url": "#warranty"
+        }
+      ]
+    },
+    "navigation": [
+      {
+        "id": "nav-home",
+        "label": "Home",
+        "path": "home",
+        "order": 1,
+        "active": true
+      },
+      {
+        "id": "nav-basic",
+        "label": "Basic Computers",
+        "path": "basic-computers",
+        "order": 2,
+        "active": true
+      },
+      {
+        "id": "nav-gaming",
+        "label": "Gaming Computers",
+        "path": "gaming-computers",
+        "order": 3,
+        "active": true
+      },
+      {
+        "id": "nav-builder",
+        "label": "Custom PC Builder",
+        "path": "custom-pc",
+        "order": 4,
+        "active": true
+      },
+      {
+        "id": "nav-catalog",
+        "label": "Hardware Catalog",
+        "path": "catalog",
+        "order": 5,
+        "active": true
+      },
+      {
+        "id": "nav-contact",
+        "label": "Contact Us",
+        "path": "contact",
+        "order": 6,
+        "active": true
+      }
+    ],
+    "faqs": [
+      {
+        "id": "faq-1",
+        "question": "Are all components 100% genuine with official Indian warranty?",
+        "answer": "Yes! Every CPU, GPU, motherboard, RAM, and SSD carries authorized Indian distributor stickers (Rashi Peripherals, Acro, Supertron, Kaizen, Redington) and comes with an official GST invoice for direct brand warranty claims across India.",
+        "category": "Warranty & Genuine Products",
+        "order": 1
+      },
+      {
+        "id": "faq-2",
+        "question": "How are custom PCs shipped safely to other states?",
+        "answer": "We use custom Instapak expanding foam inside the cabinet to immobilize the heavy graphics card and cooler, wrap the system in multi-layered air cushioning, box it in double-corrugated cartons, and dispatch via BlueDart Air with 100% transit loss and damage insurance.",
+        "category": "Shipping & Delivery",
+        "order": 2
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you charge extra for custom PC assembly and OS installation?",
+        "answer": "Zero assembly fees! We provide complimentary professional assembly with clean cable management, Thermal Grizzly thermal paste, updated motherboard BIOS, and pre-activated Windows 11 installation with 24-hour stress testing.",
+        "category": "Custom PC Assembly",
+        "order": 3
+      },
+      {
+        "id": "faq-4",
+        "question": "What payment options are supported?",
+        "answer": "We support UPI (Google Pay, PhonePe, Paytm), Net Banking across all Indian banks, Credit/Debit cards, and No-Cost EMI options.",
+        "category": "Payments",
+        "order": 4
+      }
+    ],
+    "seo": {
+      "title": "Computer Galaxy - Gaming PC, Custom PC & Computer Hardware Store India",
+      "metaDescription": "Shop custom gaming PCs, basic office computers, Intel Core 14th Gen, AMD Ryzen 7000, and RTX 40-Series graphics cards with pan-India insured delivery and 3-year warranty.",
+      "keywords": "computer galaxy, gaming pc india, custom pc builder, rtx 4080 super, intel 14700k, amd ryzen 7800x3d, office desktop, pc components india",
+      "ogImage": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg"
+    }
+  },
+  "media": [],
+  "settings": {
+    "businessName": "Computer Galaxy",
+    "tagline": "Gaming PC & Hardware Store",
+    "logoUrl": "",
+    "faviconUrl": "",
+    "primaryColor": "#783D1B",
+    "secondaryColor": "#FFB020",
+    "currencySymbol": "₹",
+    "currencyCode": "INR",
+    "maintenanceMode": false,
+    "contactNumber": "+91 70144 43922",
+    "whatsappNumber": "+91 70144 43922",
+    "supportEmail": "sales@computergalaxy.in",
+    "officeAddress": "Shop 14-16, IT Mall, MG Road, Camp, Pune, Maharashtra 411001",
+    "freeShippingThreshold": 2000,
+    "standardShippingFee": 99,
+    "gstPercent": 18
+  },
+  "published": {
+    "products": [
+      {
+        "id": "pc-supernova-ultra",
+        "name": "Galaxy SuperNova RTX 4080 Super Gaming PC (White Edition)",
+        "brand": "Computer Galaxy",
+        "category": "gaming-pcs",
+        "categoryLabel": "Gaming Desktop PCs",
+        "originalPrice": 285000,
+        "discountedPrice": 245000,
+        "discountPercent": 14,
+        "rating": 4.9,
+        "reviewCount": 38,
+        "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+        "inStock": true,
+        "stockCount": 5,
+        "isBestseller": true,
+        "isGamingPC": true,
+        "specs": {
+          "CPU": "Intel Core i9-14900KF (24 Cores / 32 Threads)",
+          "GPU": "ASUS ROG Strix RTX 4080 Super 16GB GDDR6X",
+          "RAM": "32GB (16x2) Corsair Dominator Titanium DDR5 6000MHz RGB",
+          "Storage": "2TB Kingston KC3000 Gen4 PCIe 4.0 NVMe (7000 MB/s)",
+          "Motherboard": "ASUS ROG Strix Z790-A Gaming WiFi",
+          "Cooler": "Corsair iCUE LINK H150i 360mm White AIO",
+          "PSU": "Corsair RM850x 850W 80+ Gold Fully Modular",
+          "Cabinet": "Lian Li O11 Dynamic EVO RGB White Dual Chamber"
+        },
+        "description": "Our top-rated flagship gaming rig hand-assembled by master engineers. Delivers 165+ FPS at 4K in Cyberpunk 2077, Black Myth Wukong, and Valorant. Includes custom white braided cables and a 3-Year Doorstep Warranty across India.",
+        "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+        "modelNumber": "CG-SN-4080W",
+        "updatedAt": "2026-11-06T09:35:07.973Z"
+      },
+      {
+        "id": "gpu-rog-4080",
+        "name": "ASUS ROG Strix GeForce RTX 4080 Super 16GB OC Graphics Card",
+        "brand": "ASUS",
+        "category": "graphics-cards",
+        "categoryLabel": "Graphics Cards",
+        "originalPrice": 135000,
+        "discountedPrice": 119999,
+        "discountPercent": 11,
+        "rating": 4.9,
+        "reviewCount": 52,
+        "image": "/src/assets/images/product_liquid_cooled_gpu_1793788644826.jpg",
+        "inStock": true,
+        "stockCount": 8,
+        "isBestseller": true,
+        "specs": {
+          "Memory": "16GB GDDR6X (256-bit)",
+          "Boost Clock": "2670 MHz (OC Mode)",
+          "CUDA Cores": "10240",
+          "Cooling": "Axial-tech Triple Fan Design with Vapor Chamber",
+          "Power Connector": "1x 16-pin (12VHPWR)",
+          "Interface": "PCI Express 4.0"
+        },
+        "description": "Engineered for extreme enthusiasts with an oversized heatsink, vented exoskeleton, and premium power delivery for rock-solid overclocking.",
+        "warranty": "3 Years ASUS India Manufacturer Warranty",
+        "modelNumber": "ROG-STRIX-RTX4080S-O16G"
+      },
+      {
+        "id": "cpu-intel-14700k",
+        "name": "Intel Core i7-14700K 20-Core Desktop Processor",
+        "brand": "Intel",
+        "category": "processors",
+        "categoryLabel": "Processors",
+        "originalPrice": 44000,
+        "discountedPrice": 37499,
+        "discountPercent": 15,
+        "rating": 4.8,
+        "reviewCount": 89,
+        "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "inStock": true,
+        "stockCount": 14,
+        "isBestseller": true,
+        "specs": {
+          "Cores / Threads": "20 Cores (8P + 12E) / 28 Threads",
+          "Max Turbo Frequency": "Up to 5.6 GHz",
+          "Socket": "LGA1700",
+          "Cache": "33MB Intel Smart Cache",
+          "Memory Support": "DDR5 5600 & DDR4 3200",
+          "Graphics": "Intel UHD Graphics 770"
+        },
+        "description": "The definitive sweet spot CPU for elite gaming, streaming, and intense video rendering with 20 cores and multi-threaded muscle.",
+        "warranty": "3 Years Intel India Box Warranty",
+        "modelNumber": "BX8071514700K"
+      },
+      {
+        "id": "pc-hyperion-rtx4070",
+        "name": "Galaxy Hyperion RTX 4070 Super Creator & Gaming PC",
+        "brand": "Computer Galaxy",
+        "category": "gaming-pcs",
+        "categoryLabel": "Gaming Desktop PCs",
+        "originalPrice": 175000,
+        "discountedPrice": 149999,
+        "discountPercent": 14,
+        "rating": 4.8,
+        "reviewCount": 44,
+        "image": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+        "inStock": true,
+        "stockCount": 7,
+        "isBestseller": true,
+        "isGamingPC": true,
+        "specs": {
+          "CPU": "AMD Ryzen 7 7800X3D (8 Cores / 16 Threads, 3D V-Cache)",
+          "GPU": "MSI Gaming X Slim GeForce RTX 4070 Super 12GB",
+          "RAM": "32GB (16x2) G.Skill Flare X5 DDR5 6000MHz AMD EXPO",
+          "Storage": "1TB Crucial T500 Gen4 NVMe (7300 MB/s)",
+          "Motherboard": "MSI MAG B650 Tomahawk WiFi",
+          "Cooler": "DeepCool AK620 Digital Dual-Tower Air Cooler",
+          "PSU": "MSI MAG A750GL 750W 80+ Gold PCIe 5.0",
+          "Cabinet": "NZXT H6 Flow Dual Chamber Panoramic Case"
+        },
+        "description": "The ultimate gaming-optimized build pairing the world-acclaimed Ryzen 7800X3D with RTX 4070 Super for maximum 1440p high-refresh rate esports and AAA titles.",
+        "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+        "modelNumber": "CG-HY-4070S"
+      },
+      {
+        "id": "cpu-ryzen-7800x3d",
+        "name": "AMD Ryzen 7 7800X3D Desktop Processor with 3D V-Cache",
+        "brand": "AMD",
+        "category": "processors",
+        "categoryLabel": "Processors",
+        "originalPrice": 46000,
+        "discountedPrice": 38999,
+        "discountPercent": 15,
+        "rating": 4.9,
+        "reviewCount": 112,
+        "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "inStock": true,
+        "stockCount": 12,
+        "isBestseller": true,
+        "specs": {
+          "Cores / Threads": "8 Cores / 16 Threads",
+          "Base / Boost Clock": "4.2 GHz / 5.0 GHz",
+          "Socket": "AM5",
+          "L3 Cache": "96MB 3D V-Cache (104MB Total)",
+          "TDP": "120W"
+        },
+        "description": "The reigning champion CPU for competitive PC gaming. 3D V-Cache technology delivers astonishing frame rates and ultra-low 1% lows.",
+        "warranty": "3 Years AMD India Warranty",
+        "modelNumber": "100-100000910WOF"
+      },
+      {
+        "id": "gpu-msi-4070ti",
+        "name": "MSI GeForce RTX 4070 Ti Super 16GB Gaming X Slim",
+        "brand": "MSI",
+        "category": "graphics-cards",
+        "categoryLabel": "Graphics Cards",
+        "originalPrice": 94000,
+        "discountedPrice": 83999,
+        "discountPercent": 11,
+        "rating": 4.8,
+        "reviewCount": 31,
+        "image": "/src/assets/images/product_liquid_cooled_gpu_1793788644826.jpg",
+        "inStock": true,
+        "stockCount": 9,
+        "isNewArrival": true,
+        "specs": {
+          "Memory": "16GB GDDR6X (256-bit)",
+          "Boost Clock": "2685 MHz",
+          "Cooling": "TRI FROZR 3 with TORX Fan 5.0",
+          "Form Factor": "Slim 2.5-Slot",
+          "Ray Tracing": "3rd Gen RT Cores + DLSS 3.5 Frame Gen"
+        },
+        "description": "Upgraded with 16GB high-speed GDDR6X on a wider 256-bit bus, ideal for high-resolution texture packs, ray tracing, and AI diffusion models.",
+        "warranty": "3 Years MSI India Warranty",
+        "modelNumber": "RTX-4070TI-S-16G-SLIM"
+      },
+      {
+        "id": "mobo-asus-z790",
+        "name": "ASUS ROG Maximus Z790 Dark Hero Motherboard",
+        "brand": "ASUS",
+        "category": "motherboards",
+        "categoryLabel": "Motherboards",
+        "originalPrice": 68000,
+        "discountedPrice": 58999,
+        "discountPercent": 13,
+        "rating": 4.9,
+        "reviewCount": 22,
+        "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "inStock": true,
+        "stockCount": 6,
+        "isNewArrival": true,
+        "specs": {
+          "Socket": "LGA1700 (14th, 13th & 12th Gen Intel)",
+          "Memory": "4x DDR5 DIMM slots up to 8000+ MT/s (OC)",
+          "Power Stages": "20+1+2 Teamed Power Stages (90A)",
+          "Connectivity": "WiFi 7, Dual Thunderbolt 4 Type-C, 5x M.2 slots"
+        },
+        "description": "Uncompromising motherboard for enthusiast Intel builds. Features onboard PCIe 5.0 M.2 slot, high-fidelity SupremeFX audio, and Polymo lighting.",
+        "warranty": "3 Years ASUS India Warranty",
+        "modelNumber": "ROG-MAX-Z790-DARK-HERO"
+      },
+      {
+        "id": "ram-corsair-titanium",
+        "name": "Corsair Dominator Titanium RGB 32GB (16GBx2) DDR5 6000MHz White",
+        "brand": "Corsair",
+        "category": "ram-memory",
+        "categoryLabel": "RAM Memory",
+        "originalPrice": 19500,
+        "discountedPrice": 16499,
+        "discountPercent": 15,
+        "rating": 4.9,
+        "reviewCount": 47,
+        "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "inStock": true,
+        "stockCount": 18,
+        "isBestseller": true,
+        "specs": {
+          "Capacity": "32GB (2x 16GB)",
+          "Speed": "6000 MT/s (PC5-48000)",
+          "Timing": "CL30-36-36-76",
+          "Profile": "Intel XMP 3.0 & AMD EXPO Ready",
+          "Lighting": "11 Addressable CAPELLIX RGB LEDs per module"
+        },
+        "description": "Forged aluminum heatspreaders with interchangeable top bars. Low-latency CL30 timings tuned for optimal gaming frame times.",
+        "warranty": "Limited Lifetime Warranty by Corsair India",
+        "modelNumber": "CMP32GX5M2B6000C30W"
+      },
+      {
+        "id": "ssd-samsung-990pro",
+        "name": "Samsung 990 PRO 2TB PCIe Gen 4.0 x4 M.2 NVMe SSD with Heatsink",
+        "brand": "Samsung",
+        "category": "storage-ssd",
+        "categoryLabel": "NVMe & SSD Storage",
+        "originalPrice": 22000,
+        "discountedPrice": 17999,
+        "discountPercent": 18,
+        "rating": 4.9,
+        "reviewCount": 96,
+        "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "inStock": true,
+        "stockCount": 25,
+        "isBestseller": true,
+        "specs": {
+          "Sequential Read": "Up to 7,450 MB/s",
+          "Sequential Write": "Up to 6,900 MB/s",
+          "Interface": "PCIe 4.0 NVMe 2.0",
+          "Endurance": "1200 TBW",
+          "Compatibility": "PC & PlayStation 5 ready with slim heatsink"
+        },
+        "description": "Blazing fast solid state drive with custom nickel-coated controller and thermal control algorithm for zero-throttling gaming.",
+        "warranty": "5 Years Samsung India Warranty",
+        "modelNumber": "MZ-V9P2T0CW"
+      },
+      {
+        "id": "monitor-lg-ultragear",
+        "name": "LG UltraGear 27GR95QE 27-inch QHD 240Hz 0.03ms OLED Gaming Monitor",
+        "brand": "LG",
+        "category": "monitors",
+        "categoryLabel": "Gaming Monitors",
+        "originalPrice": 95000,
+        "discountedPrice": 74999,
+        "discountPercent": 21,
+        "rating": 4.9,
+        "reviewCount": 63,
+        "image": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+        "inStock": true,
+        "stockCount": 8,
+        "isBestseller": true,
+        "specs": {
+          "Screen Size": "27-inch OLED Anti-Glare",
+          "Resolution": "QHD 2560 x 1440",
+          "Refresh Rate": "240 Hz",
+          "Response Time": "0.03ms (GtG)",
+          "Color Gamut": "DCI-P3 98.5% with HDR10",
+          "Sync": "NVIDIA G-SYNC Compatible & AMD FreeSync Premium"
+        },
+        "description": "Transformative visual fidelity with true infinite contrast, vibrant OLED colors, and lightning-fast 0.03ms pixel response.",
+        "warranty": "3 Years LG India Onsite Warranty including OLED Burn-in Coverage",
+        "modelNumber": "27GR95QE-B"
+      },
+      {
+        "id": "pc-aurora-esports",
+        "name": "Galaxy Aurora Core i5 RTX 4060 Competitive Esports PC",
+        "brand": "Computer Galaxy",
+        "category": "gaming-pcs",
+        "categoryLabel": "Gaming Desktop PCs",
+        "originalPrice": 92000,
+        "discountedPrice": 77999,
+        "discountPercent": 15,
+        "rating": 4.8,
+        "reviewCount": 71,
+        "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+        "inStock": true,
+        "stockCount": 11,
+        "isBestseller": true,
+        "isGamingPC": true,
+        "specs": {
+          "CPU": "Intel Core i5-13400F (10 Cores / 16 Threads)",
+          "GPU": "ZOTAC Gaming GeForce RTX 4060 8GB Twin Edge",
+          "RAM": "16GB (8x2) Kingston Fury Beast DDR5 5200MHz",
+          "Storage": "1TB Western Digital Black SN770 Gen4 NVMe (5150 MB/s)",
+          "Motherboard": "Gigabyte B760M DS3H AX WiFi",
+          "Cooler": "DeepCool AG400 ARGB Tower Cooler",
+          "PSU": "Cooler Master MWE 650W 80+ Bronze V2",
+          "Cabinet": "Ant Esports 511MT Mid Tower with 4x ARGB Fans"
+        },
+        "description": "The most popular budget-to-midrange esports machine in India. Runs Valorant, CS2, GTA V, and Apex Legends at over 240 FPS at 1080p smoothly.",
+        "warranty": "3 Years Doorstep Hardware Warranty & Lifetime Tech Support",
+        "modelNumber": "CG-AU-4060"
+      },
+      {
+        "id": "case-lian-li-o11",
+        "name": "Lian Li O11 Vision Dual Chamber Tempered Glass PC Case (White)",
+        "brand": "Lian Li",
+        "category": "cabinets",
+        "categoryLabel": "PC Cabinets & Cases",
+        "originalPrice": 17000,
+        "discountedPrice": 13999,
+        "discountPercent": 18,
+        "rating": 4.9,
+        "reviewCount": 35,
+        "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+        "inStock": true,
+        "stockCount": 10,
+        "isNewArrival": true,
+        "specs": {
+          "Type": "Dual-Chamber Mid Tower",
+          "Panels": "3-Sided Pillarless Tempered Glass (Top, Front, Left)",
+          "Motherboard Support": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+          "Radiator Support": "Up to 360mm Side & Bottom",
+          "GPU Clearance": "Up to 455mm"
+        },
+        "description": "Designed in collaboration with PC Master Race. Three borderless tempered glass panels provide an unobstructed panoramic view of your internal build.",
+        "warranty": "2 Years Manufacturer Warranty",
+        "modelNumber": "O11V-WHITE"
+      },
+      {
+        "id": "pc-basic-essential-i3",
+        "name": "Galaxy Essential Core i3 Everyday Home & Student PC",
+        "brand": "Computer Galaxy",
+        "category": "basic-pcs",
+        "categoryLabel": "Basic & Office Computers",
+        "originalPrice": 26000,
+        "discountedPrice": 21999,
+        "discountPercent": 15,
+        "rating": 4.8,
+        "reviewCount": 46,
+        "image": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "inStock": true,
+        "stockCount": 15,
+        "isBestseller": true,
+        "specs": {
+          "CPU": "Intel Core i3-12100 12th Gen (4 Cores / 8 Threads, up to 4.3 GHz)",
+          "Graphics": "Intel UHD Graphics 730 (Supports Dual 4K Monitors)",
+          "RAM": "16GB Crucial DDR4 3200MHz Memory",
+          "Storage": "512GB Kingston NVMe Gen4 SSD (Fast 3500 MB/s)",
+          "Motherboard": "ASUS Prime H610M-E D4 with HDMI & DisplayPort",
+          "Power Supply": "Ant Esports VS450L 450W PSU",
+          "Cabinet": "Circle Elegant Micro-ATX Black Desktop Chassis",
+          "Connectivity": "Fast Dual-Band WiFi + Bluetooth 5.0 Included"
+        },
+        "description": "The ultimate reliable desktop for schooling, college projects, Tally ERP, Zoom conferences, accounting, and everyday home media. Instant 8-second Windows boot time and quiet operation.",
+        "warranty": "3 Years Full Hardware Warranty with Free Tech Support",
+        "modelNumber": "CG-ES-I312"
+      },
+      {
+        "id": "pc-basic-prowork-i5",
+        "name": "Galaxy ProWork Core i5 Commercial Office & Business Desktop",
+        "brand": "Computer Galaxy",
+        "category": "basic-pcs",
+        "categoryLabel": "Basic & Office Computers",
+        "originalPrice": 44000,
+        "discountedPrice": 36999,
+        "discountPercent": 16,
+        "rating": 4.9,
+        "reviewCount": 39,
+        "image": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+        "inStock": true,
+        "stockCount": 12,
+        "isBestseller": true,
+        "specs": {
+          "CPU": "Intel Core i5-13400 (10 Cores / 16 Threads, up to 4.6 GHz)",
+          "Graphics": "Intel UHD Graphics 730",
+          "RAM": "16GB Crucial DDR5 4800MHz High-Speed Memory",
+          "Storage": "1TB Western Digital Blue SN580 Gen4 NVMe (4150 MB/s)",
+          "Motherboard": "Gigabyte B760M DS3H AX with Built-in WiFi 6E",
+          "Power Supply": "Cooler Master MWE 500W 80+ Certified",
+          "Cabinet": "Antec VSK10 Professional Silent Office Tower",
+          "OS & Software": "Windows 11 Pro 64-bit Pre-Installed"
+        },
+        "description": "High-speed business workstation engineered for seamless heavy multitasking, large Excel sheets, software compilation, multi-screen stock trading, and corporate office productivity.",
+        "warranty": "3 Years Onsite Manufacturer Warranty",
+        "modelNumber": "CG-PW-I513"
+      },
+      {
+        "id": "pc-basic-ryzen-home",
+        "name": "Galaxy SmartWork AMD Ryzen 5 Compact Desktop PC",
+        "brand": "Computer Galaxy",
+        "category": "basic-pcs",
+        "categoryLabel": "Basic & Office Computers",
+        "originalPrice": 35000,
+        "discountedPrice": 29499,
+        "discountPercent": 15,
+        "rating": 4.8,
+        "reviewCount": 28,
+        "image": "/src/assets/images/product_flagship_gaming_rig_1793788644663.jpg",
+        "inStock": true,
+        "stockCount": 9,
+        "isNewArrival": true,
+        "specs": {
+          "CPU": "AMD Ryzen 5 5600G (6 Cores / 12 Threads with Radeon Vega 7 Graphics)",
+          "Graphics": "AMD Radeon Vega 7 Integrated GPU (Capable of 1080p casual gaming)",
+          "RAM": "16GB (8x2) Corsair Vengeance LPX DDR4 3200MHz Dual Channel",
+          "Storage": "512GB Crucial P3 Gen3 NVMe SSD",
+          "Motherboard": "MSI B450M PRO-VDH MAX",
+          "Power Supply": "Corsair CV450 450W 80+ Bronze",
+          "Cabinet": "DeepCool MATREXX 30 Compact Glass Mini-Tower"
+        },
+        "description": "Compact yet powerful computer featuring AMD 6-core processor with potent Radeon graphics for light 1080p photo editing, YouTube 4K playback, Canva design, and general home computing.",
+        "warranty": "3 Years Comprehensive Hardware Warranty",
+        "modelNumber": "CG-SW-R5600"
+      }
+    ],
+    "categories": [
+      {
+        "id": "prebuilt-pcs",
+        "name": "Prebuilt PCs",
+        "description": "Factory-assembled desktop setups ready to use",
+        "icon": "Monitor",
+        "count": "14 Models",
+        "displayOrder": 1,
+        "isActive": true
+      },
+      {
+        "id": "gaming-pcs",
+        "name": "Gaming PCs",
+        "description": "Liquid-cooled Esports & AAA 4K Battle Stations",
+        "icon": "Gamepad2",
+        "count": "18 Models",
+        "displayOrder": 2,
+        "isActive": true
+      },
+      {
+        "id": "editing-pcs",
+        "name": "Editing PCs",
+        "description": "High-thread workstations for Premiere Pro, Blender & After Effects",
+        "icon": "Video",
+        "count": "8 Models",
+        "displayOrder": 3,
+        "isActive": true
+      },
+      {
+        "id": "basic-pcs",
+        "name": "Office PCs",
+        "description": "Quiet, dependable desktop systems for schools, Tally & corporate firms",
+        "icon": "Briefcase",
+        "count": "12 Models",
+        "displayOrder": 4,
+        "isActive": true
+      },
+      {
+        "id": "processors",
+        "name": "Processors",
+        "description": "Intel Core 12th-14th Gen & AMD Ryzen 5000/7000/9000 Series",
+        "icon": "Cpu",
+        "count": "28 Models",
+        "displayOrder": 5,
+        "isActive": true
+      },
+      {
+        "id": "graphics-cards",
+        "name": "Graphics Cards",
+        "description": "NVIDIA GeForce RTX 40-Series & AMD Radeon RX 7000",
+        "icon": "Layers",
+        "count": "34 Models",
+        "displayOrder": 6,
+        "isActive": true
+      },
+      {
+        "id": "motherboards",
+        "name": "Motherboards",
+        "description": "Intel Z790/B760 & AMD X670E/B650 motherboards",
+        "icon": "Grid",
+        "count": "42 Models",
+        "displayOrder": 7,
+        "isActive": true
+      },
+      {
+        "id": "ram-memory",
+        "name": "RAM",
+        "description": "High-speed DDR5 6000MHz & DDR4 3200MHz RGB Memory Kits",
+        "icon": "Zap",
+        "count": "30 Kits",
+        "displayOrder": 8,
+        "isActive": true
+      },
+      {
+        "id": "storage-ssd",
+        "name": "SSD and Hard Drives",
+        "description": "Gen4 NVMe M.2 SSDs up to 7400MB/s & high-capacity enterprise HDDs",
+        "icon": "HardDrive",
+        "count": "25 Drives",
+        "displayOrder": 9,
+        "isActive": true
+      },
+      {
+        "id": "cabinets",
+        "name": "Cabinets",
+        "description": "Panoramic dual-chamber fish-tank and high-airflow mesh PC cases",
+        "icon": "Box",
+        "count": "22 Cases",
+        "displayOrder": 10,
+        "isActive": true
+      },
+      {
+        "id": "monitors",
+        "name": "Monitors",
+        "description": "165Hz to 360Hz Fast-IPS & OLED gaming and color-accurate creator displays",
+        "icon": "Tv",
+        "count": "18 Displays",
+        "displayOrder": 11,
+        "isActive": true
+      },
+      {
+        "id": "printers",
+        "name": "Printers",
+        "description": "All-in-one wireless ink tank and laser printers for home and business",
+        "icon": "Printer",
+        "count": "9 Models",
+        "displayOrder": 12,
+        "isActive": true
+      },
+      {
+        "id": "keyboards",
+        "name": "Keyboards",
+        "description": "Hot-swappable mechanical keyboards with RGB and custom switches",
+        "icon": "Keyboard",
+        "count": "24 Keyboards",
+        "displayOrder": 13,
+        "isActive": true
+      },
+      {
+        "id": "mouse",
+        "name": "Mouse",
+        "description": "Ultra-lightweight wireless esports mice with 8000Hz polling rate",
+        "icon": "Mouse",
+        "count": "20 Mice",
+        "displayOrder": 14,
+        "isActive": true
+      },
+      {
+        "id": "speakers",
+        "name": "Speakers",
+        "description": "Studio monitors and 2.1 gaming soundbars with deep bass",
+        "icon": "Speaker",
+        "count": "12 Speakers",
+        "displayOrder": 15,
+        "isActive": true
+      },
+      {
+        "id": "accessories",
+        "name": "Computer Accessories",
+        "description": "Thermal paste, sleeve cables, anti-sag brackets, and webcams",
+        "icon": "Wrench",
+        "count": "35 Accessories",
+        "displayOrder": 16,
+        "isActive": true
+      },
+      {
+        "id": "laptops",
+        "name": "Laptops",
+        "description": "Thin & light creator notebooks and RTX 40-Series gaming laptops",
+        "icon": "Laptop",
+        "count": "16 Laptops",
+        "displayOrder": 17,
+        "isActive": true
+      }
+    ],
+    "banners": [
+      {
+        "id": "banner-diwali",
+        "badge": "Diwali Festive Mega Celebration | Special Offers Live",
+        "title": "Festival of Lights Mega Celebration & Exclusive Deals",
+        "subtitle": "Computer Galaxy wishes you and your family endless joy, prosperity, and light! Celebrate this festive season with exclusive discounts across all custom gaming rigs, Intel/AMD processors, and NVIDIA RTX GPUs.",
+        "ctaText": "Shop Festive Deals",
+        "ctaLink": "#catalog-section",
+        "secondaryCtaText": "Diwali PC Builder",
+        "secondaryCtaLink": "#custom-builder",
+        "desktopImage": "/assets/aistudio/Orange_And_Pink_Vibrant_Diwali_Greetings_Video_9f51bd3e.mp4",
+        "tag": "Priority crating across India",
+        "displayOrder": 1,
+        "isActive": true,
+        "floatingBadge": "Happy Diwali 🪔 Computer Galaxy",
+        "mediaType": "video",
+        "videoUrl": "/assets/aistudio/Orange_And_Pink_Vibrant_Diwali_Greetings_Video_9f51bd3e.mp4"
+      },
+      {
+        "id": "banner-builder",
+        "badge": "INTERACTIVE PC CONFIGURATOR",
+        "title": "Build Your Dream Custom PC with Real-Time Compatibility Engine",
+        "subtitle": "Configure Intel Core 14th Gen or AMD Ryzen rigs with instant socket validation, RAM matching, and power wattage calculations.",
+        "ctaText": "Configure Custom PC",
+        "ctaLink": "#custom-builder",
+        "desktopImage": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "tag": "3-Year Doorstep Warranty Included",
+        "displayOrder": 2,
+        "isActive": true
+      },
+      {
+        "id": "banner-gpu",
+        "badge": "EXCLUSIVE GRAPHICS CARDS",
+        "title": "GeForce RTX 40-Series & Liquid Cooled GPUs at Street Market Prices",
+        "subtitle": "Official Indian brand warranty on ASUS, MSI, Gigabyte, and ZOTAC with GST tax invoice.",
+        "ctaText": "Shop Graphics Cards",
+        "ctaLink": "#catalog-section",
+        "desktopImage": "/src/assets/images/product_liquid_cooled_gpu_1793788644826.jpg",
+        "tag": "Extra ₹2,000 Off with Code GALAXY2000",
+        "displayOrder": 3,
+        "isActive": true
+      }
+    ],
+    "sales": [
+      {
+        "id": "sale-festive-2026",
+        "title": "Computer Galaxy Mega Hardware Sale",
+        "discountInfo": "Up to 35% Off on Custom Rigs & Selected Components",
+        "description": "Use coupon code GALAXY500 for flat ₹500 off on all orders above ₹2,000. Free shipping across India.",
+        "couponCode": "GALAXY500",
+        "bannerImage": "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+        "startDate": "2026-11-01",
+        "endDate": "2026-11-30",
+        "isActive": true,
+        "discountPercent": 15,
+        "promotionalProductIds": [
+          "pc-supernova-ultra",
+          "gpu-rtx4080s",
+          "cpu-i9-14900k"
+        ]
+      },
+      {
+        "id": "sale-student-office",
+        "title": "Office & Student PC Package Deal",
+        "discountInfo": "Flat ₹1,000 Off on Basic & Commercial Desktops",
+        "description": "Special pricing for schools, CA firms, accounting departments, and student setups.",
+        "couponCode": "OFFICE1000",
+        "bannerImage": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg",
+        "startDate": "2026-11-01",
+        "endDate": "2026-12-15",
+        "isActive": true,
+        "discountPercent": 10,
+        "promotionalProductIds": [
+          "pc-office-i3",
+          "pc-office-ryzen5"
+        ]
+      }
+    ],
+    "content": {
+      "homepage": {
+        "heroTitle": "Computer Galaxy - India's Trusted Custom PC & Hardware Store",
+        "heroSubtitle": "Hand-crafted gaming PCs, workstation rigs, and genuine computer components delivered securely across 19,000+ pin codes.",
+        "announcementText": "🔥 FESTIVE MEGA SALE: Up to 35% Off on Gaming Rigs + Zero Assembly Fees! Use code GALAXY500.",
+        "announcementActive": true,
+        "sections": [
+          {
+            "id": "diwali-banner",
+            "name": "Sale & Greetings Banner",
+            "visible": true,
+            "order": 1
+          },
+          {
+            "id": "top-pc-selector",
+            "name": "PC Category Selector (Basic, Gaming, Custom)",
+            "visible": true,
+            "order": 2
+          },
+          {
+            "id": "categories",
+            "name": "Shop By Category Grid",
+            "visible": true,
+            "order": 3
+          },
+          {
+            "id": "catalog",
+            "name": "Main Product Catalog",
+            "visible": true,
+            "order": 4
+          },
+          {
+            "id": "custom-builder-promo",
+            "name": "Custom PC Assembly Studio Promo",
+            "visible": true,
+            "order": 5
+          },
+          {
+            "id": "gaming-pcs-collection",
+            "name": "Pre-configured Gaming Rig Collection",
+            "visible": true,
+            "order": 6
+          },
+          {
+            "id": "bestsellers",
+            "name": "Bestselling Hardware & Components",
+            "visible": true,
+            "order": 7
+          },
+          {
+            "id": "popular-brands",
+            "name": "Official Brand Partners Grid",
+            "visible": true,
+            "order": 8
+          },
+          {
+            "id": "why-choose-us",
+            "name": "Why Choose Computer Galaxy",
+            "visible": true,
+            "order": 9
+          },
+          {
+            "id": "google-reviews",
+            "name": "Verified Google Customer Reviews",
+            "visible": true,
+            "order": 10
+          }
+        ]
+      },
+      "about": {
+        "heading": "Engineering Excellence in PC Hardware Since 2018",
+        "description": "Computer Galaxy was founded with a mission to bridge the gap between volatile grey-market pricing and professional corporate warranty standards. We build custom gaming PCs, visual effects render farms, and high-reliability office machines with 100% serialized authorized importer stock, stress testing every build for 24 hours before safe delivery.",
+        "establishedYear": "2018",
+        "highlights": [
+          "Over 50,000 custom computers deployed across India",
+          "Authorized partners with ASUS ROG, MSI, Gigabyte, Intel & AMD",
+          "100% genuine serialized products with official manufacturer GST invoices",
+          "Free lifetime technical support and BIOS/driver consultation"
+        ],
+        "storeAddress": "Computer Galaxy Flagship Experience Center, Shop 14-16, IT Mall, MG Road, Pune, Maharashtra 411001",
+        "storePhotos": [
+          "/src/assets/images/custom_pc_builder_promo_1793788644706.jpg",
+          "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg"
+        ]
+      },
+      "contact": {
+        "businessName": "Computer Galaxy Hardware & Systems",
+        "phone": "+91 70144 43922",
+        "whatsapp": "+91 70144 43922",
+        "email": "sales@computergalaxy.in",
+        "address": "Shop 14-16, IT Hardware Plaza, MG Road, Camp, Pune, Maharashtra 411001, India",
+        "workingHours": "Monday - Saturday: 10:30 AM to 8:30 PM IST (Sunday Closed)",
+        "googleMapsEmbedUrl": "https://maps.google.com/?q=Computer+Galaxy+Pune",
+        "socialLinks": {
+          "youtube": "https://youtube.com/@computergalaxyindia",
+          "instagram": "https://instagram.com/computergalaxy.official",
+          "facebook": "https://facebook.com/computergalaxyindia",
+          "twitter": "https://x.com/computergalaxyin"
+        }
+      },
+      "footer": {
+        "description": "Computer Galaxy is India's premier enthusiast PC hardware store offering custom liquid-cooled gaming rigs, commercial office desktops, and verified components with 100% transit insurance and Indian distributor warranty.",
+        "gstNumber": "GSTIN: 27AABCC1234D1Z8",
+        "copyrightText": "© 2026 Computer Galaxy Hardware & Systems. All Rights Reserved. All brand logos are property of their respective manufacturers.",
+        "quickLinks": [
+          {
+            "label": "Basic & Office PCs",
+            "url": "#basic-pcs"
+          },
+          {
+            "label": "Gaming Rigs",
+            "url": "#gaming-pcs"
+          },
+          {
+            "label": "Custom PC Builder",
+            "url": "#custom-builder"
+          },
+          {
+            "label": "All Components",
+            "url": "#catalog-section"
+          },
+          {
+            "label": "Track My Order",
+            "url": "#track-order"
+          },
+          {
+            "label": "Warranty & Support Policy",
+            "url": "#warranty"
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "id": "nav-home",
+          "label": "Home",
+          "path": "home",
+          "order": 1,
+          "active": true
+        },
+        {
+          "id": "nav-basic",
+          "label": "Basic Computers",
+          "path": "basic-computers",
+          "order": 2,
+          "active": true
+        },
+        {
+          "id": "nav-gaming",
+          "label": "Gaming Computers",
+          "path": "gaming-computers",
+          "order": 3,
+          "active": true
+        },
+        {
+          "id": "nav-builder",
+          "label": "Custom PC Builder",
+          "path": "custom-pc",
+          "order": 4,
+          "active": true
+        },
+        {
+          "id": "nav-catalog",
+          "label": "Hardware Catalog",
+          "path": "catalog",
+          "order": 5,
+          "active": true
+        },
+        {
+          "id": "nav-contact",
+          "label": "Contact Us",
+          "path": "contact",
+          "order": 6,
+          "active": true
+        }
+      ],
+      "faqs": [
+        {
+          "id": "faq-1",
+          "question": "Are all components 100% genuine with official Indian warranty?",
+          "answer": "Yes! Every CPU, GPU, motherboard, RAM, and SSD carries authorized Indian distributor stickers (Rashi Peripherals, Acro, Supertron, Kaizen, Redington) and comes with an official GST invoice for direct brand warranty claims across India.",
+          "category": "Warranty & Genuine Products",
+          "order": 1
+        },
+        {
+          "id": "faq-2",
+          "question": "How are custom PCs shipped safely to other states?",
+          "answer": "We use custom Instapak expanding foam inside the cabinet to immobilize the heavy graphics card and cooler, wrap the system in multi-layered air cushioning, box it in double-corrugated cartons, and dispatch via BlueDart Air with 100% transit loss and damage insurance.",
+          "category": "Shipping & Delivery",
+          "order": 2
+        },
+        {
+          "id": "faq-3",
+          "question": "Do you charge extra for custom PC assembly and OS installation?",
+          "answer": "Zero assembly fees! We provide complimentary professional assembly with clean cable management, Thermal Grizzly thermal paste, updated motherboard BIOS, and pre-activated Windows 11 installation with 24-hour stress testing.",
+          "category": "Custom PC Assembly",
+          "order": 3
+        },
+        {
+          "id": "faq-4",
+          "question": "What payment options are supported?",
+          "answer": "We support UPI (Google Pay, PhonePe, Paytm), Net Banking across all Indian banks, Credit/Debit cards, and No-Cost EMI options.",
+          "category": "Payments",
+          "order": 4
+        }
+      ],
+      "seo": {
+        "title": "Computer Galaxy - Gaming PC, Custom PC & Computer Hardware Store India",
+        "metaDescription": "Shop custom gaming PCs, basic office computers, Intel Core 14th Gen, AMD Ryzen 7000, and RTX 40-Series graphics cards with pan-India insured delivery and 3-year warranty.",
+        "keywords": "computer galaxy, gaming pc india, custom pc builder, rtx 4080 super, intel 14700k, amd ryzen 7800x3d, office desktop, pc components india",
+        "ogImage": "/src/assets/images/hero_gaming_pc_setup_1793788644736.jpg"
+      }
+    },
+    "settings": {
+      "businessName": "Computer Galaxy",
+      "tagline": "Gaming PC & Hardware Store",
+      "logoUrl": "",
+      "faviconUrl": "",
+      "primaryColor": "#783D1B",
+      "secondaryColor": "#FFB020",
+      "currencySymbol": "₹",
+      "currencyCode": "INR",
+      "maintenanceMode": false,
+      "contactNumber": "+91 70144 43922",
+      "whatsappNumber": "+91 70144 43922",
+      "supportEmail": "sales@computergalaxy.in",
+      "officeAddress": "Shop 14-16, IT Mall, MG Road, Camp, Pune, Maharashtra 411001",
+      "freeShippingThreshold": 2000,
+      "standardShippingFee": 99,
+      "gstPercent": 18
+    },
+    "publishedAt": "2026-11-06T09:35:08.090Z",
+    "publishedBy": "admin@computergalaxy.in"
+  },
+  "hasUnpublishedChanges": false,
+  "pendingChangesCount": 0
+}

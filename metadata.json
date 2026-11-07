@@ -1,0 +1,6 @@
+{
+  "name": "Computer Galaxy - Gaming PC & Hardware Store",
+  "description": "Premium PC & gaming hardware eCommerce store featuring custom PC builds, components, express delivery across India, and guest checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
